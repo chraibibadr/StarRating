@@ -42,12 +42,12 @@ public class ListActivity extends AppCompatActivity {
     }
 
     public void init() {
-        service.create(new Star("kate bosworth", "https://upload.wikimedia.org/wikipedia/commons/e/e6/Kate_Bosworth_Deauville_2011.jpg", 3.5f));
-        service.create(new Star("george clooney", "https://upload.wikimedia.org/wikipedia/commons/8/8d/George_Clooney_2016.jpg", 3));
-        service.create(new Star("michelle rodriguez", "https://upload.wikimedia.org/wikipedia/commons/f/fd/Michelle_Rodriguez_Cannes_2018_cropped.jpg", 5));
-        service.create(new Star("tom hardy", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Tom_Hardy_by_Gage_Skidmore.jpg/800px-Tom_Hardy_by_Gage_Skidmore.jpg", 1));
-        service.create(new Star("louise bouroin", "https://upload.wikimedia.org/wikipedia/commons/5/54/Louise_Bourgoin_Cannes_2010.jpg", 5));
-        service.create(new Star("rami malek", "https://upload.wikimedia.org/wikipedia/commons/8/8e/Rami_Malek_in_2015_%282%29_%28cropped%29.jpg", 1));
+        service.create(new Star("kate bosworth", "https://upload.wikimedia.org/wikipedia/commons/e/e6/Kate_Bosworth_Deauville_2011.jpg", 3.5f, "Female"));
+        service.create(new Star("george clooney", "https://upload.wikimedia.org/wikipedia/commons/8/8d/George_Clooney_2016.jpg", 5, "Male"));
+        service.create(new Star("michelle rodriguez", "https://upload.wikimedia.org/wikipedia/commons/f/fd/Michelle_Rodriguez_Cannes_2018_cropped.jpg", 2, "Female"));
+        service.create(new Star("tom hardy", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Tom_Hardy_by_Gage_Skidmore.jpg/800px-Tom_Hardy_by_Gage_Skidmore.jpg", 5, "Male"));
+        service.create(new Star("louise bouroin", "https://upload.wikimedia.org/wikipedia/commons/5/54/Louise_Bourgoin_Cannes_2010.jpg", 3, "Female"));
+        service.create(new Star("rami malek", "https://upload.wikimedia.org/wikipedia/commons/8/8e/Rami_Malek_in_2015_%282%29_%28cropped%29.jpg", 5, "Male"));
     }
 
     @Override

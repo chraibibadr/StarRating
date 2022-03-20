@@ -5,12 +5,14 @@ public class Star {
     private String name;
     private String img;
     private float star;
+    private String sexe;
     private static int comp;
 
-    public Star(String name, String img, float star) {
+    public Star(String name, String img, float star, String sexe) {
         this.id = ++comp;
         this.name = name;
         this.img = img;
+        this.sexe = sexe;
         this.star = star;
     }
 
@@ -44,5 +46,13 @@ public class Star {
 
     public void setStar(float star) {
         this.star = star;
+    }
+
+    public String getSexe() {
+        return sexe;
+    }
+
+    public void setSexe(String sexe) {
+        this.sexe = sexe;
     }
 }
