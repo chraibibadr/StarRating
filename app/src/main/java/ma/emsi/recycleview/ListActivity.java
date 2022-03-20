@@ -42,12 +42,12 @@ public class ListActivity extends AppCompatActivity {
     }
 
     public void init() {
-        service.create(new Star("kate bosworth", "https://upload.wikimedia.org/wikipedia/commons/e/e6/Kate_Bosworth_Deauville_2011.jpg", 3.5f, "Female"));
-        service.create(new Star("george clooney", "https://upload.wikimedia.org/wikipedia/commons/8/8d/George_Clooney_2016.jpg", 5, "Male"));
-        service.create(new Star("michelle rodriguez", "https://upload.wikimedia.org/wikipedia/commons/f/fd/Michelle_Rodriguez_Cannes_2018_cropped.jpg", 2, "Female"));
-        service.create(new Star("tom hardy", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Tom_Hardy_by_Gage_Skidmore.jpg/800px-Tom_Hardy_by_Gage_Skidmore.jpg", 5, "Male"));
-        service.create(new Star("louise bouroin", "https://upload.wikimedia.org/wikipedia/commons/5/54/Louise_Bourgoin_Cannes_2010.jpg", 3, "Female"));
-        service.create(new Star("rami malek", "https://upload.wikimedia.org/wikipedia/commons/8/8e/Rami_Malek_in_2015_%282%29_%28cropped%29.jpg", 5, "Male"));
+        service.create(new Star("Jason Statham", "https://upload.wikimedia.org/wikipedia/commons/d/d3/Jason_Statham_2018.jpg", 5, "Male"));
+        service.create(new Star("maisie williams", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Maisie_Williams_by_Gage_Skidmore_3.jpg/330px-Maisie_Williams_by_Gage_Skidmore_3.jpg", 3, "Female"));
+        service.create(new Star("emilia clarke", "https://upload.wikimedia.org/wikipedia/commons/d/d5/Emilia_Clarke_by_Gage_Skidmore_2_%28cropped%29.jpg", 4, "Female"));
+        service.create(new Star("tom holland", "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/800px-Tom_Holland_by_Gage_Skidmore.jpg", 5, "Male"));
+        service.create(new Star("dwayne johnson", "https://upload.wikimedia.org/wikipedia/commons/1/1f/Dwayne_Johnson_2014_%28cropped%29.jpg", 4, "Male"));
+        service.create(new Star("kit harington", "https://upload.wikimedia.org/wikipedia/commons/3/32/Kit_harrington_by_sachyn_mital_%28cropped_2%29.jpg", 4, "Male"));
     }
 
     @Override
